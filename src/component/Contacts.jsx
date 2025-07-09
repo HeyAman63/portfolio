@@ -13,8 +13,10 @@ const Contacts = () => {
             import.meta.env.VITE_YOUR_PUBLIC_KEY
         ).then(
             toast.success("Email has been send")
-        ).catch(
-            toast.error("failed to send email")
+        ).catch((error)=>{
+          toast.error(error.message)
+        }
+            
         )
     }
   return (
