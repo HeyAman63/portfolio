@@ -32,19 +32,25 @@ const Home = () => {
             className="h-30 w-30 object-cover rounded-full border-8 border-gray-800"
           />
           <h2 className="text-2xl pt-4 font-bold">Aman Chaurasiya</h2>
-          <div className="flex gap-5 mt-5">
+          <div className="flex gap-3 mt-5">
             <div className=" hover:bg-blue-400 transition duration-300 text-gray-200 rounded-full hover:cursor-pointer bg-gray-700 p-3">
               <a target="_blank" href="https://instagram.com/amanchaurasiya666"><i className="fa-brands fa-instagram text-lg py-1 px-1"></i></a>
               
             </div>
             <div className="hover:bg-blue-400 transition duration-300 text-gray-200 rounded-full hover:cursor-pointer bg-gray-700 p-3">
-              <i className="fa-brands fa-x-twitter text-lg py-1 px-1"></i>
+              <a href="https://x.com/aman6389?s=21"><i className="fa-brands fa-x-twitter text-lg py-1 px-1"></i></a>
+              
             </div>
             <div className="hover:bg-blue-400 transition duration-300 text-gray-200 rounded-full hover:cursor-pointer bg-gray-700 p-3">
               <i className="fa-brands fa-facebook text-lg py-1 px-1"></i>
             </div>
             <div className="hover:bg-blue-400 transition duration-300 text-gray-200 rounded-full hover:cursor-pointer bg-gray-700 p-3">
-              <i className="fa-brands fa-linkedin text-lg py-1 px-1"></i>
+              <a target="_blank" href="https://www.linkedin.com/in/HeyAman63/"><i className="fa-brands fa-linkedin text-lg py-1 px-1"></i></a>
+              
+            </div>
+            <div className="hover:bg-blue-400 transition duration-300 text-gray-200 rounded-full hover:cursor-pointer bg-gray-700 p-3">
+              <a target="_blank" href="https://github.com/HeyAman63"><i className="fa-brands fa-github text-lg py-1 px-1"></i></a>
+              
             </div>
           </div>
         </div>
