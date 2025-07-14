@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skill = () => {
   return (
-    <div className='relative md:w-[80%] left-2 md:left-[20%] bg-blue-50 mt-10 mr-5 md:mt-20 pb-60 '>
+    <div className='relative lg:w-[80%] left-2 lg:left-[20%] bg-blue-50 mt-10 mr-5 md:mt-20 pb-60 '>
         <h2 className="md:mt-15 mt-5 ml-3 text-2xl font-bold tracking-widest border-b-3 border-blue-300 mb-10 inline-block md:ml-3">
             Skills
         </h2>

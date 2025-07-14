@@ -1,7 +1,7 @@
 
 const Hero = () => {
   return (
-    <div id='hero' className="relative md:left-[20%] md:w-[80%]">
+    <div id='hero' className="relative lg:left-[20%] lg:w-[80%]">
         <img
           src="/hero-bg.jpg"
           className="h-[100vh] z-50 md:w-full object-cover opacity-85 inset-0  shadow-2xl"

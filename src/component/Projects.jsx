@@ -24,19 +24,23 @@ const Projects = () => {
             url:"https://github.com/HeyAman63/Video-Player",
             title:"Video palyer",
             image:"https://media.istockphoto.com/id/1409431800/vector/video-player-interface-isolated-on-white-background-video-streaming-template-mockup-live.jpg?s=612x612&w=0&k=20&c=c4Ukls95CaoQhgYnKVFvdhcngAA6hEMAnORTWYPn4cY="
+        },
+        {
+            url:"https://github.com/HeyAman63/subscription-tracker",
+            title:"Subscription manegment tracker",
+            image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2zBvLMYvRiIR46ZStss9yDiugBPZSCvvInw&s"
         }
     ]
   return (
-    <div id='project' className="relative w-[80%] left-10 md:left-[20%]">
+    <div id='project' className="relative w-[80%] left-10 lg:left-[20%]">
         <h2 className="mt-15 text-2xl font-bold tracking-widest border-b-3 border-blue-300 mb-10 inline-block ml-3">
           Projects
         </h2>
         <div className='flex flex-wrap justify-center'>
           
             {project.map((proj,index)=>(
-              <div key={index} className=' mt-10 w-86 cursor-pointer md:ml-3 group transition duration-500 z-10'>
+              <div key={index} className=' mt-10 w-86 cursor-pointer lg:ml-3 group transition duration-500 z-10'>
                 <Card
-                
                 image={proj.image}
                 title={proj.title}
                 url={proj.url}

@@ -20,11 +20,11 @@ const Contacts = () => {
         )
     }
   return (
-    <div id="contact" className="mb-5 relative md:w-[80%] md:left-[20%]">
+    <div id="contact" className="mb-5 relative lg:w-[80%] lg:left-[20%]">
       <h2 className="mt-15 text-2xl font-bold tracking-widest border-b-3 border-blue-300 mb-10 inline-block ml-3">
         Contacts
       </h2>
-      <div className="md:flex justify-between">
+      <div className="lg:flex justify-between">
         <div className="flex flex-col gap-5 pr-20 bg-gray-50 p-5">
           <div className="flex items-center  group cursor-pointer gap-4 ml-2">
             <div className="px-4  transition duration-300 group-hover:bg-blue-400 py-3 rounded-full bg-blue-50">
@@ -63,7 +63,7 @@ const Contacts = () => {
           </div>
         </div>
 
-        <div className="bg-gray-50 md:w-[50%]">
+        <div className="bg-gray-50 lg:w-[50%]">
           <form ref={form} onSubmit={sendEmail}>
             <div className="flex md:flex flex-col items-center md:justify-around mt-3">
               <div className="w-[90%] flex Justify-center flex-col">

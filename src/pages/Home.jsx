@@ -25,14 +25,14 @@ const Home = () => {
   return (
     <div className="">
       <Navbar/>
-      <div className="md:w-[20%] bg-black text-white h-[100vh] hidden md:block fixed">
+      <div className=" md:w-[20%] bg-black text-white h-[100vh] hidden md:hidden lg:block fixed">
         <div className="flex flex-col items-center mt-10">
           <img
             src={myimg}
             className="h-30 w-30 object-cover rounded-full border-8 border-gray-800"
           />
-          <h2 className="text-2xl pt-4 font-bold">Aman Chaurasiya</h2>
-          <div className="flex gap-3 mt-5">
+          <h2 className="text-2xl md:text-center pt-4 font-bold">Aman Chaurasiya</h2>
+          <div className="flex flex-wrap md:justify-center gap-3 mt-5">
             <div className=" hover:bg-blue-400 transition duration-300 text-gray-200 rounded-full hover:cursor-pointer bg-gray-700 p-3">
               <a target="_blank" href="https://instagram.com/amanchaurasiya666"><i className="fa-brands fa-instagram text-lg py-1 px-1"></i></a>
               

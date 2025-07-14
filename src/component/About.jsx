@@ -3,7 +3,7 @@ import main from '../assets/main.jpg'
 
 const About = () => {
   return (
-    <div id="about" className="relative w-[80%] left-10 md:left-[20%]">
+    <div id="about" className="relative w-[80%] left-10 lg:left-[20%]">
       <h2 className="mt-15 text-2xl font-bold tracking-widest border-b-3 border-blue-300 mb-10 inline-block ml-3">
         About
       </h2>
@@ -19,9 +19,12 @@ const About = () => {
         experimenting with new frameworks, contributing to open-source projects,
         or helping others in the community. 
       </p>
-      <div className=" mt-10 w-full md:flex gap-7">
-        <img src={main} className="h-78 md:ml-5" />
-        <div className="w-full mt-5">
+      <div className=" mt-10 w-full lg:flex gap-7">
+        <div className="flex justify-center">
+          <img src={main} className="h-78 md:ml-5" />
+        </div>
+        
+        <div className="w-full items-center flex-col mt-5">
             <h2 className="text-3xl font-semibold">UI/UX Designer & Web Developer.</h2>
             <p className="mt-5">I believe in continuous learning,
                 clean code, and building things that matter.
