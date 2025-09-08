@@ -89,8 +89,8 @@ const Home = () => {
               ></i>
               About
             </a>
-            <li
-              id="resume"
+            <a
+              href="#resume"
               onClick={() => {
                 setClick5(false);
                 setClick2(true);
@@ -106,7 +106,7 @@ const Home = () => {
                 }`}
               ></i>
               Resume
-            </li>
+            </a>
             <a
               href="#project"
               onClick={() => {

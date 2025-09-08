@@ -152,7 +152,7 @@ export default function ResumeViewer({ data: incomingData }) {
   };
 
   return (
-    <div className="min-h-screen mt-10 w-full bg-gradient-to-b from-gray-50 to-white text-gray-900">
+    <div id="resume" className="min-h-screen mt-15 w-full bg-gradient-to-b from-gray-50 to-white text-gray-900">
       {/* Toolbar */}
       <div className="sticky top-0 z-10 mr-5 mx-auto max-w-[70rem] bg-white/80 backdrop-blur border-b border-gray-200">
         <div className="flex items-center justify-between px-4 py-3">
